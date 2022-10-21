@@ -107,6 +107,13 @@ body {
   background-color: #2f303a;
 }
 
+.dane-kontaktowe {
+  margin-top: 60px;
+  margin-left: 215px;
+}
+.Footer-staff {
+  text-align: left;
+}
 .Footer-staff li {
   font-style: normal;
   font-weight: 400;
@@ -135,6 +142,25 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+.logo-stopka {
+  display: inline-block;
+  margin-top: 60px;
+  margin-left: 215px;
+}
+.logo-dol {
+  text-align: left;
+  list-style-type: none;
+}
+
+.simple-Web-stopa {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
 
 .simple-Studio-white {
@@ -221,6 +247,7 @@ body {
 }
 
 .John-Doe {
+  text-align: center;
   margin-top: 30px;
   font-style: normal;
   font-weight: 500;
@@ -230,17 +257,28 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
+.wewnetrzna-sekcja-zespol {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
+}
 .team {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-right: 30px;
+  box-sizing: border-box;
 }
 .team li {
+  width: 270px;
   list-style-type: none;
+  border: 1px solid white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .profession {
+  text-align: center;
   margin-top: 10px;
   font-style: normal;
   font-weight: 400;
