@@ -4,12 +4,10 @@ body {
   margin: 0;
   padding: 0;
 }
-
-.glowka {
+.order {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  flex-direction: row;
+  justify-content: space-between;
 }
 .logo {
   display: flex;
@@ -38,7 +36,6 @@ body {
 }
 .menu {
   display: flex;
-  justify-content: space-between;
 }
 
 .menu li {
@@ -62,7 +59,6 @@ body {
 
 .info {
   display: flex;
-  justify-content: space-between;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -84,7 +80,15 @@ body {
   color: #2196f3;
 }
 
-button {
+.przyciski {
+  display: flex;
+}
+
+.przyciski li {
+  list-style-type: none;
+}
+
+.style-clic {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -94,23 +98,27 @@ button {
   letter-spacing: 0.03em;
   background: #f5f4fa;
   border-radius: 4px;
+  margin-right: 8px;
 }
 
-.style-clic-primary:hover {
+button:hover {
   color: white;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
+.style-clic-primary {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
 .stopa {
   background-color: #2f303a;
 }
-
 .dane-kontaktowe {
-  margin-top: 20px;
-  margin-left: 215px;
+  text-align: left;
 }
+
 .Footer-staff {
   text-align: left;
 }
@@ -193,6 +201,7 @@ button {
 }
 
 .primar-text {
+  text-align: center;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -240,8 +249,8 @@ button {
 .primary-images {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin-right: 30px;
+  justify-content: space-between;
+  gap: 30px;
 }
 .primary-images li {
   list-style-type: none;
@@ -297,13 +306,14 @@ button {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  text-align: center;
+
   letter-spacing: 0.06em;
 
   color: #ffffff;
 }
 
 .hfont {
+  text-align: center;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -315,7 +325,8 @@ button {
 
 .container {
   width: 1200px;
-  text-align: center;
+
+  margin: 0 auto;
 }
 
 .wewnetrzna-sekcja {
@@ -323,19 +334,6 @@ button {
   padding-bottom: 94px;
 }
 
-.przyciski {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-left: 532px;
-  margin-right: 518px;
-}
-
-.przyciski li {
-  display: flex;
-  margin-left: 8px;
-  list-style-type: none;
-}
 .obrazki {
   display: flex;
   flex-wrap: wrap;
@@ -346,4 +344,9 @@ button {
   width: 30%;
   margin-left: 30px;
   list-style-type: none;
+}
+
+.frame {
+  margin: 0 auto;
+  gap: 30px;
 }
