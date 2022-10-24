@@ -8,6 +8,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 80px;
+  border-bottom: 1px solid #ececec;
+}
+.webstudio {
+  display: flex;
+  margin-left: 215px;
+  max-width: 145px;
+  flex-basis: 31px;
 }
 .logo {
   display: flex;
@@ -50,7 +58,7 @@ body {
 
 .menu li a {
   text-decoration: none;
-  color: black;
+  color: #212121;
 }
 
 .menu li a:hover {
@@ -104,6 +112,7 @@ body {
   background: #f5f4fa;
   border-radius: 4px;
   margin-right: 8px;
+  cursor: pointer;
 }
 
 button:hover {
@@ -120,12 +129,22 @@ button:hover {
 .stopa {
   background-color: #2f303a;
 }
+
+.logo-stopka {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
 .dane-kontaktowe {
-  text-align: left;
+  display: flex;
+  margin-top: 20px;
 }
 
 .Footer-staff {
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
 }
 .Footer-staff li {
   font-style: normal;
@@ -158,8 +177,13 @@ button:hover {
 }
 
 .logo-dol {
-  text-align: left;
-  list-style-type: none;
+  display: flex;
+  margin-top: 60px;
+  text-decoration: none;
+}
+
+.webstudio-footer {
+  display: flex;
 }
 
 .simple-Web-stopa {
@@ -203,14 +227,16 @@ button:hover {
 }
 
 .primar-text {
-  text-align: center;
-  font-style: normal;
+  max-width: 696px;
+  max-height: 120px;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
   color: #ffffff;
 }
 
@@ -220,6 +246,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .lorem {
@@ -342,16 +369,23 @@ button:hover {
 .obrazki {
   display: flex;
   flex-wrap: wrap;
-  gap: calc((100%- (3 * 30%)) / 3);
+  gap: 30px;
 }
 
 .obrazki li {
-  width: 30%;
-  margin-left: 30px;
   list-style-type: none;
 }
 
 .frame {
   margin: 0 auto;
   gap: 30px;
+}
+
+.wewnetrzna-sekcja-no-pad-bottom {
+  padding-top: 94px;
+  padding-bottom: 0;
+}
+
+.paint {
+  background-color: #e5e5e5;
 }
