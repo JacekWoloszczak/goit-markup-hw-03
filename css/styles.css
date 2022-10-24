@@ -44,6 +44,7 @@ body {
 }
 .menu {
   display: flex;
+  margin-right: 93px;
 }
 
 .menu li {
@@ -388,4 +389,9 @@ button:hover {
 
 .paint {
   background-color: #e5e5e5;
+}
+
+.wewnetrzna-sekcja-buttons {
+  padding-top: 94px;
+  padding-bottom: 0;
 }
