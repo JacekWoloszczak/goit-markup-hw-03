@@ -44,6 +44,7 @@ body {
 }
 .menu {
   display: flex;
+  align-items: center;
   margin-right: 93px;
 }
 
@@ -68,16 +69,21 @@ body {
 
 .info {
   display: flex;
+  align-items: center;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  margin-right: 364px;
 }
 
 .info li {
-  margin-right: 50px;
   list-style-type: none;
+}
+
+.info:nth-child(2) {
+  margin-left: 50px;
 }
 
 .info li a {
