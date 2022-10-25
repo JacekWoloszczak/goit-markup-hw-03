@@ -14,8 +14,8 @@ body {
 .webstudio {
   display: flex;
   margin-left: 215px;
-  max-width: 145px;
-  flex-basis: 31px;
+  flex-basis: 145px;
+  height: 31px;
 }
 .logo {
   display: flex;
