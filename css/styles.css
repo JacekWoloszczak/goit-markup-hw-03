@@ -66,7 +66,9 @@ body {
 .menu li a:hover {
   color: #2196f3;
 }
-
+.flex-address {
+  display: flex;
+}
 .info {
   display: flex;
   align-items: center;
@@ -75,15 +77,14 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  margin-right: 364px;
 }
 
 .info li {
   list-style-type: none;
 }
 
-.info:nth-child(2) {
-  margin-left: 50px;
+.info li:nth-child(2) {
+  margin-left: 20px;
 }
 
 .info li a {
