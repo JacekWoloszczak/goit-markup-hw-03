@@ -4,16 +4,25 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .order {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 80px;
+}
+.order-portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 79px;
   border-bottom: 1px solid #ececec;
 }
 .webstudio {
   display: flex;
-  margin-left: 215px;
+  margin-left: 93px;
+  margin-right: 0px;
+
   flex-basis: 145px;
   height: 31px;
 }
@@ -33,7 +42,6 @@ body {
 }
 
 .simple-Studio {
-  margin-right: 92px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -45,11 +53,9 @@ body {
 .menu {
   display: flex;
   align-items: center;
-  margin-right: 93px;
 }
 
 .menu li {
-  margin-right: 46px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -58,6 +64,13 @@ body {
   list-style-type: none;
 }
 
+.menu li:nth-child(2) {
+  margin-left: 43px;
+}
+
+.menu li:last-child {
+  margin-left: 43px;
+}
 .menu li a {
   text-decoration: none;
   color: #212121;
@@ -102,7 +115,6 @@ body {
 .przyciski {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
 }
 
 .przyciski li {
@@ -120,7 +132,9 @@ body {
   background: #f5f4fa;
   border-radius: 4px;
   margin-right: 8px;
+  border: none;
   cursor: pointer;
+  padding: 6px 22px;
 }
 
 button:hover {
@@ -133,6 +147,8 @@ button:hover {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
+  cursor: pointer;
 }
 .stopa {
   background-color: #2f303a;
@@ -146,6 +162,7 @@ button:hover {
 }
 .dane-kontaktowe {
   display: flex;
+  padding: none;
   margin-top: 20px;
 }
 
@@ -265,19 +282,34 @@ button:hover {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
 }
 .lorem-list {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .lorem-list li {
   list-style-type: none;
 }
+.lorem-list li:nth-child(1) {
+  margin-top: 10px;
+}
+.lorem-list li:nth-child(2) {
+  margin-top: 10px;
+  margin-left: 30px;
+}
 
+.lorem-list li:nth-child(3) {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.lorem-list li:nth-child(4) {
+  margin-top: 10px;
+  margin-left: 30px;
+}
 .lorem-text {
-  margin-right: 32px;
   text-align: justify;
   flex-direction: row;
   font-style: normal;
@@ -346,6 +378,10 @@ button:hover {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
+  padding-top: 10px;
+  padding-right: 41px;
+  padding-bottom: 10px;
+  padding-left: 42px;
 
   letter-spacing: 0.06em;
 
@@ -359,6 +395,7 @@ button:hover {
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 
   color: #212121;
 }
@@ -387,6 +424,7 @@ button:hover {
 .frame {
   margin: 0 auto;
   gap: 30px;
+  border: 1px solid #eeeeee;
 }
 
 .wewnetrzna-sekcja-no-pad-bottom {
@@ -394,11 +432,12 @@ button:hover {
   padding-bottom: 0;
 }
 
-.paint {
-  background-color: #e5e5e5;
-}
-
 .wewnetrzna-sekcja-buttons {
   padding-top: 94px;
-  padding-bottom: 0;
+  padding-bottom: 50px;
+}
+
+.wewnetrzna-sekcja-images {
+  padding-top: 0px;
+  padding-bottom: 94px;
 }
