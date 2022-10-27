@@ -21,7 +21,6 @@ body {
 .webstudio {
   display: flex;
   margin-left: 93px;
-  margin-right: 0px;
 
   flex-basis: 145px;
   height: 31px;
