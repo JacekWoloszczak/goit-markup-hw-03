@@ -21,7 +21,6 @@ body {
 }
 .webstudio {
   display: flex;
-  margin-left: 93px;
 
   flex-basis: 145px;
   height: 31px;
@@ -63,7 +62,9 @@ body {
   letter-spacing: 0.02em;
   list-style-type: none;
 }
-
+.menu li:first-child {
+  margin-left: -308px;
+}
 .menu li:nth-child(2) {
   margin-left: 43px;
 }
@@ -162,8 +163,6 @@ button:hover {
 }
 .dane-kontaktowe {
   display: flex;
-  padding: none;
-  margin-top: 20px;
 }
 
 .Footer-staff {
@@ -203,7 +202,7 @@ button:hover {
 
 .logo-dol {
   display: flex;
-  margin-top: 60px;
+
   text-decoration: none;
 }
 
