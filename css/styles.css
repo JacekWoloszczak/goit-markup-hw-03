@@ -7,6 +7,12 @@ body {
 .top-head {
   border-bottom: 1px solid #ececec;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 .order {
   display: flex;
   align-items: center;
@@ -202,6 +208,14 @@ button:hover {
   list-style-type: none;
 }
 
+.Footer-staff li:nth-child(2) {
+  margin-top: 9px;
+}
+
+.Footer-staff li:nth-child(3) {
+  margin-top: 9px;
+}
+
 .Footer-staff li:nth-child(2) a {
   font-style: normal;
   font-weight: 400;
@@ -309,7 +323,6 @@ button:hover {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
-  margin-bottom: 10px;
 }
 .lorem-list {
   display: flex;
@@ -352,7 +365,7 @@ button:hover {
 .primary-images {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;
 }
 .primary-images li {
