@@ -336,19 +336,15 @@ button:hover {
   list-style-type: none;
 }
 .lorem-list li:nth-child(1) {
-  margin-top: 10px;
 }
 .lorem-list li:nth-child(2) {
-  margin-top: 10px;
   margin-left: 30px;
 }
 
 .lorem-list li:nth-child(3) {
-  margin-top: 10px;
   margin-left: 30px;
 }
 .lorem-list li:nth-child(4) {
-  margin-top: 10px;
   margin-left: 30px;
 }
 .lorem-text {
