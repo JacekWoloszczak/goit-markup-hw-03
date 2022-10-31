@@ -400,7 +400,6 @@ button:hover {
 .profession {
   text-align: center;
   margin-top: 10px;
-  padding-bottom: 30px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -462,12 +461,16 @@ button:hover {
 .obrazki li {
   list-style-type: none;
 }
-
-.frame {
+.frame-our-team {
   margin: 0 auto;
   gap: 30px;
   padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
+  background-color: white;
+}
+.frame {
+  margin: 0 auto;
+  gap: 30px;
   background-color: white;
 }
 
