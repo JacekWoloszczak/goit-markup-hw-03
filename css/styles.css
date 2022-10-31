@@ -73,7 +73,7 @@ ul {
   list-style-type: none;
 }
 .menu li:first-child {
-  margin-left: -308px;
+  margin-left: -309px;
 }
 .menu li:nth-child(2) {
   margin-left: 43px;
@@ -110,7 +110,7 @@ ul {
 }
 
 .info li:nth-child(2) {
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .info li a {
@@ -335,8 +335,7 @@ button:hover {
 .lorem-list li {
   list-style-type: none;
 }
-.lorem-list li:nth-child(1) {
-}
+
 .lorem-list li:nth-child(2) {
   margin-left: 30px;
 }
@@ -387,7 +386,7 @@ button:hover {
 .team {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   box-sizing: border-box;
 }
 .team li {
@@ -401,7 +400,7 @@ button:hover {
 .profession {
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -442,7 +441,7 @@ button:hover {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
 
   margin: 0 auto;
 }
@@ -455,6 +454,8 @@ button:hover {
 .obrazki {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 1px solid #eeeeee;
   gap: 30px;
 }
 
@@ -465,7 +466,8 @@ button:hover {
 .frame {
   margin: 0 auto;
   gap: 30px;
-  border: 1px solid #eeeeee;
+  padding-bottom: 30px;
+  border-radius: 0px 0px 4px 4px;
   background-color: white;
 }
 
